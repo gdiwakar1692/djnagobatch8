@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-i!x(dxrkjw0tk^ljmaqtd(o78dvx!ops@*is^g=)aayevma(6d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["gd-django-localgit.azurewebsites.net"]
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'pages'
+    'pages',
 ]
 
 MIDDLEWARE = [
